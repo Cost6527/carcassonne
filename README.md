@@ -1,3 +1,7 @@
+# Carcassonne Front-end
+
+A mobile-first responsive front-end to play Carcassonne board-game. 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Cost6527/carcassonne/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
