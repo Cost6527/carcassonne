@@ -1,0 +1,86 @@
+.logo-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-right: 6px;
+}
+
+/* variables */
+:root{
+    --primary: #f2c311;
+    --secundary: #002a5c/*#093d81*/;
+}
+
+/* reset */
+li{
+    list-style-type: none;
+}
+body, a, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'MedievalSharp';
+}
+
+/* base styles */
+body{
+    background: var(--secundary);
+    overflow-x: hidden;
+}
+.button{
+    background: none;
+    border-radius: 20px;
+}
+.button:hover{
+    color: #f7d652;
+    background: rgba(255, 255, 255, 0.05);
+}
+input{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    color: #F2F2F2;
+}
+
+/* fonts */
+@font-face{
+    font-family: 'MedievalSharp';
+    src: url('fonts/MedievalSharp-Regular.ttf');
+}
+h1{
+    color: var(--primary);
+    font-weight: normal;
+    font-size: 1.2em;
+}
+h2{
+    color: #f8bf1d;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+a,li{
+    color: #9893D8;
+}
+
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+  
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+
+    body{
+        font-size: 18px;
+    }
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+ 
+    body{
+font-size: 20px;
+ }
+}
